@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header {
+    margin: 0;
+}
+/*-------- body ---------*/
+body {
+background-color: #f4f4f4;
+color: #585858;
+font-family: Oswald, san-serif;
+}
+
+.navbar {
+    padding; 0.8rem;
+}
+
+.navbar-nav li {
+    padding-right: 15px;
+}
+
+.nav-link {
+    font-family: Oswald;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    }
+
+
+/*------------Carousel--------*/
+.carousel-inner img {
+    height: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    top: inherit;
+   
+}
+.carousel-caption h2 {
+    font-size: 350%;
+    text-transform: uppercase;
+    color: #ff6600;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 350;
+    text-shadow: 1px; 1px; 10px; #000;
+    padding-bottom: 1rem;
+} 
+
+.btn-primary {
+    background-color: #f58133;
+    border: 1px solid #ff6600;
+}
+
+.btn-primary:hover {
+    background-color: #FF4500;
+    border: 1px solid #FF4500;
+}
+/*----------------jumbotron---------------*/
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+.padding {
+    padding-bottom: 2rem;
+}
+/*------------------our team--------------*/
+.intro {
+    width: 75%;
+    margin: auto;
+    padding-top: 2rem;
+}
+.intro hr {
+    border-top: 2px solid #ff6600;
+    width: 95%;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;        
+}
+
+/*----------------social---------------------*/
+footer {
+    background-color: #0d0d0d;
+    color: #ff6600;
+    padding: 28px;
+}
+hr.light{
+    border-top: 1px solid #ff6600;
+    width: 95%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+.social a {
+    font-size: 2rem;
+    padding: 1rem;
+}
+/*-------------media queires-------------------*/
+
+@media (max-width:  992px){
+    
+} 
+
+@media (max-width:  768px){
+    .carousel-caption {
+    top: 22%;
+   
+}
+.carousel-caption h2 {
+    font-size: 220%;
+    text-transform: uppercase;
+    color: #ff6600;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 160%; 
+    font-weight: 300;
+    text-shadow: 1px; 1px; 10px; #000;
+    padding-bottom: 1rem;
+} 
+    ,carousel-caption ,btn {
+        font-size: 85%;
+        padding: 8px 14px;
+    }    
+}
+      
+@media (max-width:  576px){
+       .carousel-caption {
+    top: 20%;
+   
+}
+.carousel-caption h2 {
+    font-size: 200%;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ff6600;
+   
+}
+
+.carousel-caption h3 {
+    font-size: 160%; 
+    font-weight: 300;
+    padding-bottom: 1rem;
+} 
+    ,carousel-caption ,btn {
+        font-size: 65%;
+        padding: 5px 10px;
+    } 
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*------------Footer---------*/
+
+/*
+@media(max-width: 600px){
+    footer .inner-footer{
+        width: 90%;
+    }
+    .inner-footer .logo_container,
+    .inner-footer .footer_third{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+*/
