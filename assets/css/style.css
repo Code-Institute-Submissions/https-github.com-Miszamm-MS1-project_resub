@@ -17,7 +17,7 @@ font-family: Oswald, san-serif;
 }
 
 .navbar {
-    padding; 0.8rem;
+    padding: 0.8rem;
 }
 
 .navbar-nav li {
@@ -51,7 +51,7 @@ font-family: Oswald, san-serif;
 .carousel-caption h3 {
     font-size: 200%;
     font-weight: 350;
-    text-shadow: 1px; 1px; 10px; #000;
+    text-shadow: 1px 1px 10px #000;
     padding-bottom: 1rem;
 } 
 
@@ -84,6 +84,13 @@ font-family: Oswald, san-serif;
     margin-top: 0.3rem;
     margin-bottom: 1rem;        
 }
+/*-------------Contact-------------------------*/
+#contact-us-section {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    background-image: src="assets/images/cu.jpg";
+}
 
 /*----------------social---------------------*/
 footer {
@@ -101,6 +108,10 @@ hr.light{
     font-size: 2rem;
     padding: 1rem;
 }
+
+
+
+
 /*-------------media queires-------------------*/
 
 @media (max-width:  992px){
@@ -122,19 +133,18 @@ hr.light{
 .carousel-caption h3 {
     font-size: 160%; 
     font-weight: 300;
-    text-shadow: 1px; 1px; 10px; #000;
+    text-shadow: 1px 1px 10px #000;
     padding-bottom: 1rem;
 } 
-    ,carousel-caption ,btn {
+    .carousel-caption ,btn {
         font-size: 85%;
         padding: 8px 14px;
     }    
 }
       
 @media (max-width:  576px){
-       .carousel-caption {
+.carousel-caption {
     top: 20%;
-   
 }
 .carousel-caption h2 {
     font-size: 200%;
@@ -149,35 +159,26 @@ hr.light{
     font-weight: 300;
     padding-bottom: 1rem;
 } 
-    ,carousel-caption ,btn {
+.carousel-caption ,btn {
         font-size: 65%;
         padding: 5px 10px;
     } 
-    .carousel-indicators {
+.carousel-indicators {
         display: none;
     }
-}
-
-
-
-
-
-
-
-
-
 
 /*------------Footer---------*/
 
-/*
+
 @media(max-width: 600px){
     footer .inner-footer{
         width: 90%;
     }
-    .inner-footer .logo_container,
+    .inner-footer .logo_container
     .inner-footer .footer_third{
         width: 100%;
         margin-bottom: 20px;
     }
 }
-*/
+}
+
