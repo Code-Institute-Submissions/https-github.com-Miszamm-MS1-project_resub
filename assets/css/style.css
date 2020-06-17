@@ -200,7 +200,7 @@ textarea::placeholder {
 }
 #timetable .container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 .tab-triger {}
 .tab-triger ul {
@@ -218,6 +218,53 @@ textarea::placeholder {
     display: block;
     padding: 8px 16px;
     cursor: pointer;
+    min-width: 100px;
+    background: rgba(136,133,133,0.5);
+    text-align: center;
+    font-weight: 700;
+    color: #f87924;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 6px 6px 0 0;
+}
+.tab-triger ul li:nth-child(1) label{
+    background: #f0eeee;
+}
+.tab-triger ul li:nth-child(2) label{
+    background: #dddcdc;
+}
+.tab-triger ul li:nth-child(3) label{
+    background: #c2c0c0;
+}
+.tab-triger ul li:nth-child(4) label{
+    background: #b6b4b4;
+}
+.tab-container-wrap {}
+.tab-container-wrap input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: 0;
+    z-index: -100;
+    top: -10000px;
+}
+.tab-content-box {
+    background: #f0eeee;
+    padding: 20px;
+}
+.tab-content-box:nth-of-type(1) {
+    background: #f0eeee;
+}
+.tab-content-box:nth-of-type(2) {
+    background: #dddcdc;
+}
+.tab-content-box:nth-of-type(3) {
+    background: #c2c0c0;
+}.tab-content-box:nth-of-type(4) {
+    background:  #b6b4b4;
+}
+.tab-content-box h2 {
+    margin: 0 0 20px;
 }
 /*----------------social---------------------*/
 footer {
