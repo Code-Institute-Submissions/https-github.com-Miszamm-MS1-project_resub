@@ -94,7 +94,7 @@ font-size: 16px;
 
 
 #contact-section {
-    background: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(assets/images/cu.jpg);
+    background: linear-gradient( rgba(255, 125, 65, 0.849),rgba(163, 74, 15, 0.904)),url(assets/images/bgcf.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -272,6 +272,51 @@ textarea::placeholder {
 .tab-content-box h2 {
     margin: 0 0 20px;
 }
+/*----------------gallery--------------------*/
+.gallery-sectiom {
+    width: 100%;
+    padding: 60px 0;
+    background: #f1f1f1f1;
+    box-sizing: border-box;
+}
+
+.inner-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+.gallery-section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #f58133;
+    padding-top: 40px;
+}
+.border {
+    width: 180px;
+    height: 4px;
+    background: #f58133;
+    margin: 60px auto;
+}
+.gallery-section .gallery {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.gallery-section .image {
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.gallery-section .image img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.gallery-section .image:hover img {
+    transform: scale(1.4) rotate(15deg);
+}
+
 /*----------------social---------------------*/
 footer {
     background-color: #0d0d0d;
