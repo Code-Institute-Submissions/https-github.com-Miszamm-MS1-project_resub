@@ -21,8 +21,6 @@ font-size: 16px;
     padding: 0.8rem;
 }
 
-    padding-right: 15px;
-}
 
 .nav-link {
     font-family: Oswald;
@@ -36,6 +34,7 @@ font-size: 16px;
 .carousel-inner img {
     height: 100%;
 }
+/*---------------
 .carousel-caption {
     position: absolute;
     top: inherit;
@@ -64,6 +63,50 @@ font-size: 16px;
     background-color: #FF4500;
     border: 1px solid #FF4500;
 }
+--------------------------*/
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex!important;
+    align-items: center!important;
+  }
+
+ .main-img-1 {
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80)),
+    url('../images/bjj.jpg');
+    background-size: cover;
+}
+  .main-img-2 {
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80)),
+    url('../images/jujitsu.jpg');
+    background-size: cover;
+}
+  .main-img-3 {
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80)),
+    url('../images/sc.jpg');
+    background-size: cover;
+  }   
+.section-full{
+    width: 100%;
+    overflow: auto;
+}
+
+.custom-jumbotron {
+    background: none;
+    color: #fff;
+}
+.btn-success {
+    background: orangered;
+    border: orangered;
+}
+.btn-success:hover {
+    background: rgb(143, 40, 3);
+    border: rgb(143, 40, 3);
+}
 /*----------------jumbotron---------------*/
 .jumbotron {
     padding: 1rem;
@@ -71,6 +114,10 @@ font-size: 16px;
 }
 .padding {
     padding-bottom: 2rem;
+}
+mark {
+    background: transparent;
+    color:rgb(245, 77, 48);
 }
 /*------------------our team--------------*/
 .intro {
@@ -93,7 +140,8 @@ font-size: 16px;
 
 
 #contact-section {
-    background: linear-gradient( rgba(255, 125, 65, 0.849),rgba(163, 74, 15, 0.904)),url(assets/images/bgcf.jpg);
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80)),url('../images/bgcf.jpg');
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -105,8 +153,9 @@ font-size: 16px;
 #contact-section .container h2 {
     text-align: center;
     text-decoration: underline;
+    text-transform: uppercase;
     text-underline-position: under;
-    color:  #f4f4f4;
+    color:  #ff6600;
     letter-spacing: 2px;
 }
 
@@ -116,7 +165,7 @@ font-size: 16px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 3px;
-    color: #fff8f8;
+    color: #ff6600;
     letter-spacing: 3px;
 }
 
@@ -196,9 +245,16 @@ textarea::placeholder {
 /*---------------timetable-------------------*/
 #timetable {
     box-sizing: border-box;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80)),url('../images/bgcf.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
 }
 #timetable .container {
-    max-width: 800px;
+
+    max-width: 100%;
     margin: 30px auto;
 }
 .tab-triger {}
@@ -215,7 +271,7 @@ textarea::placeholder {
 .tab-triger ul li label {
     position: relative;
     display: block;
-    margin: 0;
+    margin: 20px 0 0;
     padding: 8px 16px;
     cursor: pointer;
     min-width: 100px;
@@ -253,6 +309,7 @@ textarea::placeholder {
 }
 .tab-content-box {
     background: #f0eeee;
+    margin: 0 0 20px;
     padding: 20px;
     display: none;
 }
@@ -270,6 +327,10 @@ textarea::placeholder {
 }
 .tab-content-box h2 {
     margin: 0 0 20px;
+}
+.tab-content-box h2 hr {
+    color: #ff6600;
+    width: 95%;
 }
 /*----------------gallery--------------------*/
 .gallery-sectiom {
