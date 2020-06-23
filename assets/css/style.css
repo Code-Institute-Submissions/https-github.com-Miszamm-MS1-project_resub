@@ -18,9 +18,11 @@ font-size: 16px;
 }
 
 .navbar {
-    padding: 0.8rem;
+    padding: 0.4rem;
 }
-
+a .navbar-logo img {
+    border-radius: 5px;
+}
 
 .nav-link {
     font-family: Oswald;
@@ -118,6 +120,11 @@ font-size: 16px;
 mark {
     background: transparent;
     color:rgb(245, 77, 48);
+}
+.btn-outline-secondary:hover {
+    background: orangered;
+    border: orangered;
+    color: #fff;
 }
 /*------------------our team--------------*/
 .intro {
@@ -335,18 +342,19 @@ textarea::placeholder {
 /*----------------gallery--------------------*/
 .gallery-sectiom {
     width: 100%;
-    padding: 60px 0;
-    background: #f1f1f1f1;
+    padding: 40px 0;
     box-sizing: border-box;
 }
 
 .inner-width {
     width: 100%;
     max-width: 1200px;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.80)),url('../images/bgcf.jpg');
     margin: auto;
     padding: 0 20px;
 }
-.gallery-section h1 {
+.gallery-section h2 {
     text-align: center;
     text-transform: uppercase;
     color: #f58133;
@@ -356,7 +364,8 @@ textarea::placeholder {
     width: 180px;
     height: 4px;
     background: #f58133;
-    margin: 60px auto;
+    border: 1px solid #f58133!important;
+    margin: 40px auto;
 }
 .gallery-section .gallery {
     display: flex;
