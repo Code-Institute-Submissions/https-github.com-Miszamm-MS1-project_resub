@@ -20,52 +20,30 @@ font-size: 16px;
 .navbar {
     padding: 0.4rem;
 }
-a .navbar-logo img {
+.navbar-logo img {
     border-radius: 5px;
 }
-
-.nav-link {
-    font-family: Oswald;
+.navbar-light .navbar-nav .nav-link {
+    font-family: Oswald, sans-serif;
+    color: #FF6600;
     font-weight: 400;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    }
-
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    font-family: Oswald, sans-serif;
+    color: orangered;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: underline;
+} 
 
 /*------------Carousel--------*/
 .carousel-inner img {
     height: 100%;
 }
-/*---------------
-.carousel-caption {
-    position: absolute;
-    top: inherit;
-   
-}
-.carousel-caption h2 {
-    font-size: 350%;
-    text-transform: uppercase;
-    color: #ff6600;
-    text-shadow: 1px 1px 15px #000;
-}
 
-.carousel-caption h3 {
-    font-size: 200%;
-    font-weight: 350;
-    text-shadow: 1px 1px 10px #000;
-    padding-bottom: 1rem;
-} 
-
-.btn-primary {
-    background-color: #f58133;
-    border: 1px solid #ff6600;
-}
-
-.btn-primary:hover {
-    background-color: #FF4500;
-    border: 1px solid #FF4500;
-}
---------------------------*/
 .vertical-center {
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
     min-height: 100vh; /* These two lines are counted as one :-)       */
@@ -241,13 +219,17 @@ textarea::placeholder {
     text-align: center;
     cursor: pointer;
     margin-left: 3%;
-    border: 2px solid rgb(243, 239, 239);
-    color: rgb(243, 239, 239);
+    border: 2px solid #ff6600;
+}
+.submit a {
+    color: #fff;
 }
 .submit :hover {
-    border: 1px solid #fff;
-    color: #fff;
+    border: transparent;
+    color: #ff6600;
     cursor: pointer; 
+    text-decoration: none;
+    background-color: none;
 }
 /*---------------timetable-------------------*/
 #timetable {
@@ -339,6 +321,9 @@ textarea::placeholder {
     color: #ff6600;
     width: 95%;
 }
+h3 {
+    color:rgb(245, 77, 48);
+}
 /*----------------gallery--------------------*/
 .gallery-sectiom {
     width: 100%;
@@ -398,9 +383,18 @@ hr.light{
     margin-top: 0.8rem;
     margin-bottom: 1rem;
 }
+p a {
+    color: #ff6600;
+    text-decoration: none;
+}
+p a:hover {
+    color: orangered;
+    text-decoration: none;
+}
 .social a {
     font-size: 2rem;
-    padding: 1rem;
+    padding: 0.5rem;
+    color: orangered;
 }
 
 
