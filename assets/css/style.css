@@ -38,7 +38,9 @@ font-size: 16px;
     text-transform: uppercase;
     text-decoration: underline;
 } 
-
+span.navbar-toggler-icon {
+    color: #FF6600;
+}
 /*------------Carousel--------*/
 .carousel-inner img {
     height: 100%;
@@ -255,7 +257,7 @@ textarea::placeholder {
     
 }
 .tab-triger ul li {
-
+    width: 25%;
 }
 .tab-triger ul li label {
     position: relative;
@@ -470,6 +472,12 @@ p a:hover {
         flex: 100%;
     }
 }   
+/*------------Timetable-----------*/
+@media screen and (max-width: 576px){
+    .tab-triger label {
+        font-size: 90%;
+    }
+}
 /*------------Contuct us------*/
 @media (max-width: 760px){
     #contact-section .contact-form{
