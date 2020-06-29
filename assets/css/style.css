@@ -13,7 +13,7 @@ header {
 body {
 background-color: #f4f4f4;
 color: #585858;
-font-family: Oswald, san-serif;
+font-family: Oswald, sans-serif;
 font-size: 16px;
 }
 
@@ -160,7 +160,6 @@ mark {
  .contact-form i.fa {
     font-size: 22px;
     padding: 3%;
-    background-color: none;
     margin: 2%;
     cursor: pointer;
     border: 2px solid rgb(243, 239, 239);
@@ -180,7 +179,7 @@ mark {
 
 .form-info {
     font-size: 16px;
-    font-style: Lato;
+    font-family: Lato;
     color: #fff;
     letter-spacing: 2px;
 }
@@ -210,7 +209,7 @@ textarea {
 textarea::placeholder {
     color: #fff;
 }
-.submit {
+.btn-submit {
     width: 40%;
     background: none;
     padding: 4px;
@@ -222,17 +221,16 @@ textarea::placeholder {
     text-align: center;
     cursor: pointer;
     margin-left: 3%;
-    border: 2px solid #ff6600;
-}
-.submit a {
+    border: 2px solid #fff;
     color: #fff;
 }
-.submit :hover {
-    border: transparent;
+
+.btn-submit:hover {
+    border: 2px solid #ff6600;
     color: #ff6600;
     cursor: pointer; 
     text-decoration: none;
-    background-color: none;
+    
 }
 /*---------------timetable-------------------*/
 #timetable {
