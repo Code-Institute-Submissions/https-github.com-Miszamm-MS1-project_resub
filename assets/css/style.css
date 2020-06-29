@@ -38,7 +38,8 @@ font-size: 16px;
     text-transform: uppercase;
     text-decoration: underline;
 } 
-span.navbar-toggler-icon {
+ 
+ .navbar-toggler {
     color: #FF6600;
 }
 /*------------Carousel--------*/
@@ -248,7 +249,6 @@ textarea::placeholder {
     max-width: 100%;
     margin: 30px auto;
 }
-.tab-triger {}
 .tab-triger ul {
     margin: 0;
     padding: 0;
@@ -473,7 +473,7 @@ p a:hover {
     }
 }   
 /*------------Timetable-----------*/
-@media screen and (max-width: 576px){
+@media (max-width: 576px){
     .tab-triger label {
         font-size: 90%;
     }
