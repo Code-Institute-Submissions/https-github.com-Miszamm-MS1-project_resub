@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Miszamm/MS1-project/blob/master/assets/image/logo2.png" alt="club-logo"/>
+  <img src="https://github.com/Miszamm/MS1-project/blob/master/Image/logo2.png?raw=true" alt="club-logo"/>
 </p>
 
 # Description
@@ -17,7 +17,8 @@ Website has been deployed to [GitHub Pages](https://miszamm.github.io/MS1-projec
 
 The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/) and screeshots could be found below:
 
-- [Wireframe](image/wireframe.png)
+- ![Wireframe](Image/wf1.png)
+- ![Wireframe](Image/wf2.png)
 
 # UX
 
@@ -29,7 +30,7 @@ I have used simple and responsive design to minimise loading time of the page.
 - Timetable: Timetable contains clickable tabs with days of the week and container below with relevant content for each tab. Below there is a jumbotron with call to action botton.
 
 In order to improve user experience and website loading speed, to  compressed the images i used [tinypng.com](https://tinypng.com/) and the reduction in image size has been 67%.
-![tinypng image saving results](image/tinypng.jpeg)
+![tinypng image saving results](Image/tinypng.jpeg)
 
 # Visual Identity
 
@@ -50,7 +51,7 @@ Bussiness owner:
 # Testing
 
 Website has been tested using [GTmetrix](https://gtmetrix.com/reports/miszamm.github.io/uxCtpG3y) and [BrowserStack](), see results below:
-![Website Speed Test Results](image/speedtest.png)
+![Website Speed Test Results](Image/speedtest.jpeg)
 The points below can be improved with a bit more optimization:
 - Serving scaled images (some images are being resized in CSS e.g. logo.png)
 - Leveraging browser caching
