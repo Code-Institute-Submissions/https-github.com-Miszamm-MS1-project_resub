@@ -52,6 +52,7 @@ Bussiness owner:
 
 Website has been tested using [GTmetrix](https://gtmetrix.com/reports/miszamm.github.io/uxCtpG3y) and [BrowserStack](), see results below:
 ![Website Speed Test Results](Image/speedtest.jpeg)
+[Website Speed Test Results](https://www.browserstack.com/)
 The points below can be improved with a bit more optimization:
 - Serving scaled images (some images are being resized in CSS e.g. logo.png)
 - Leveraging browser caching
@@ -72,7 +73,7 @@ Also, I'd like franchise owners to have a private section where they can find re
 # Media
 
 I have used different resources for images and my logo, I'll list all below:
-- [Logo Pony] for the logo design and stationary i used program and created myself. 
+- [Krita](https://krita.org/en/) for the logo design . 
 - [Unsplash](https://unsplash.com) for all the images
 - [Font Awesome](https://fontawesome.com) for the icons used on this site.
 
