@@ -4,7 +4,7 @@
 
 # Description
 
->Callan Martial art and S&C Center is a club providing Ju-Jitsu Traditional, Brazilian Jiu-Jitsu and strenght and conditioning classes for all age groups. We offer personal, semi personal and corporate classes.
+>Callan Martial art and S&C Center is a club providing Ju-Jitsu Traditional, Brazilian Jiu-Jitsu and strength and conditioning classes for all age groups. We offer personal, semi personal and corporate classes.
 
 >Fully qualified instructors offer excellent proffessional advice and wide range of classes to accomodate customers with different requirements and abilities. 
 Our continious growth is based on ongoing self educational, intelectual and physical developemnt to provide the best service for our customers.
@@ -63,6 +63,9 @@ Also, I'd like franchise owners to have a private section where they can find re
 
 # Technologies
 
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://www.w3schools.com/js/)
 - [Bootstrap](https://getbootstrap.com/)
 - [jQuery](https://jquery.com/)
 
