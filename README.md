@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/Miszamm/MS1-project/blob/master/assets/images/logoreademe.png" alt="club-logo"/>
+  <img src="https://github.com/Miszamm/MS1-project/blob/master/assets/image/logo2.png" alt="club-logo"/>
 </p>
+
 # Description
 
 >Callan Martial art and S&C Center is a club providing Ju-Jitsu Traditional, Brazilian Jiu-Jitsu and strenght and conditioning classes for all age groups. We offer personal, semi personal and corporate classes.
@@ -16,7 +17,7 @@ Website has been deployed to [GitHub Pages](https://miszamm.github.io/MS1-projec
 
 The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/) and screeshots could be found below:
 
-- [Wireframe Final Version]()
+- [Wireframe](image/wireframe.png)
 
 # UX
 
@@ -28,11 +29,11 @@ I have used simple and responsive design to minimise loading time of the page.
 - Timetable: Timetable contains clickable tabs with days of the week and container below with relevant content for each tab. Below there is a jumbotron with call to action botton.
 
 In order to improve user experience and website loading speed, to  compressed the images i used [tinypng.com](https://tinypng.com/) and the reduction in image size has been 67%.
-![tinypng image saving results](images/image_compressor.png)
+![tinypng image saving results](image/tinypng.jpeg)
 
 # Visual Identity
 
-- [Logo](https://krita.org/en/) for the logo design I used Krita-open sourceprofessional painting program.
+- [Logo](https://krita.org/en/) for the logo design I used Krita-open source professional painting program.
 
 # User Stories
 Users:
@@ -46,14 +47,14 @@ Bussiness owner:
 - As a business owner, I'd like to access the members area
 - As a business owner, I'd like to connect with other businesses and to promote what bussines have to offer
 
-# Features
-
 # Testing
+
 Website has been tested using [GTmetrix](https://gtmetrix.com/reports/miszamm.github.io/uxCtpG3y) and [BrowserStack](), see results below:
-![Website Speed Test Results](images/speed_test.png)
+![Website Speed Test Results](image/speedtest.png)
 The points below can be improved with a bit more optimization:
 - Serving scaled images (some images are being resized in CSS e.g. logo.png)
 - Leveraging browser caching
+
 # Scalability
 
 Using a back-end programming language and database, I'd like to have a fully featured CMS which can be used by non-technical people to create, read, update and delete data easily.
@@ -70,6 +71,7 @@ I have used different resources for images and my logo, I'll list all below:
 - [Logo Pony] for the logo design and stationary i used program and created myself. 
 - [Unsplash](https://unsplash.com) for all the images
 - [Font Awesome](https://fontawesome.com) for the icons used on this site.
+
 # Thanks to 
 
 - Code Institut for the oportunity 
@@ -80,3 +82,24 @@ I have used different resources for images and my logo, I'll list all below:
 
 # License
 
+MIT License
+
+Copyright (c) [2020] [Michal Miszkurka]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
