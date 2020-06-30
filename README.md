@@ -1,39 +1,50 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
-
-Welcome Michal Misza,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+<p align="center">
+  <img src="https://github.com/Miszamm/MS1-project/blob/master/assets/images/logoreademe.png" alt="club-logo"/>
+</p>
+# Description
+Callan Martial art and S&C Center is a club providing Ju-Jitsu Traditional, Brazilian Jiu-Jitsu and strenght and conditioning classes for all age groups, We offer personal, semi personal and corporate classes.
+Fully qualified instructors offer excellent proffessional advice and vide range of classes to accomodate customers with different requirements and abilities. 
+Our continious growth is based on ongoing self educational, intelectual and physical developemnt to provide the best service for our customers.
+# Deployment and Demo
+Website has been deployed to [GitHub Pages](https://miszamm.github.io/MS1-project/contact.html).
+# Wireframe
+The wireframe was designed using [Balsamiq](https://balsamiq.com/wireframes/) and screeshots could be found below:
+- [Wireframe Final Version]()
+# UX
+![Responsive image with many different monitors](images/responsive.png)
+In order to improve user experience and website loading speed, I have compressed the images using [tinypng.com](https://tinypng.com/) and the reduction in image size has been 67%.
+![tinypng image saving results](images/image_compressor.png)
+# Visual Identity
+- [Logo Pony](https://www.logopony.com/) for the logo design and stationary
+- [Bootswatch](https://bootswatch.com/) themes to add extra sweetness
+# User Stories
+Users:
+- As a user, I'd like to start to use servives to buils confidence
+- As a user, I'd like to contact the center to work on my physicality
+- As a user, I'd like to see who are the coaches of the company and what they offer
+- As a user, I'd like to join in and be part of the club/team
+Bussiness owner:
+- As a business owner, I'd like to list my services in the site
+- As a business owner, I'd like to increase trafic going thrue the website to increase revenue
+- As a business owner, I'd like to access the members area
+- As a business owner, I'd like to connect with other businesses and to promote what bussines have to offer
+# Features
+# Testing
+Website has been tested using [GTmetrix](https://gtmetrix.com/reports/miszamm.github.io/uxCtpG3y) and [BrowserStack](), see results below:
+![Website Speed Test Results](images/speed_test.png)
+The points below can be improved with a bit more optimization:
+- Serving scaled images (some images are being resized in CSS e.g. logo.png)
+- Leveraging browser caching
+# Scalability
+Using a back-end programming language and database, I'd like to have a fully featured CMS which can be used by non-technical people to create, read, update and delete data easily.
+Also, I'd like franchise owners to have a private section where they can find resources and talk directly to our customer service representatives.
+# Technologies
+- [Bootstrap](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
+# Media
+I have used different resources for images and my logo, I'll list all below:
+- [Logo Pony] for the logo design and stationary i used program and created myself. 
+- [Unsplash](https://unsplash.com) for all the images
+- [Font Awesome](https://fontawesome.com) for the icons used on this site
+- [Am I Responsive](http://ami.responsivedesign.is/) for the cool image in the UX section
+# Thanks to Code Institut for the oportunity, and also to my mentor Felipe Souza for all th eduidlines with creations of my first project, and also Slac comunity.
